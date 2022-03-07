@@ -30,6 +30,7 @@ h3{
 }
 .album{
   max-width: 20%;
+  height: 400px;
   background: #fff;
   padding: 15px;
   display: inline-block;
@@ -149,4 +150,15 @@ box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
   color: #545454;
   text-decoration: none;
   font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  .album{
+    max-width: 40%;
+    height: 275px;
+    margin: 15px 5%;
+    cursor: pointer;
+  }
+  .button {
+    margin-top: 20px;
+  }
 }
